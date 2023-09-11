@@ -9,7 +9,7 @@
       condition: event.i == 1
       action:
         run_job_template:
-          name: test
+          name: eda-test-template
           organization: BTS Unix
           job_args:
             extra_vars:
